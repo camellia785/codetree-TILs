@@ -22,3 +22,5 @@ elif a<b:
             print(a)
         else:
             print(c)
+    elif b<c:
+        print(b)
