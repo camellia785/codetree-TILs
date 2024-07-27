@@ -1,10 +1,6 @@
-st1 = input()
-st2 = input()
-st3 = input()
-
-a = len(st1)
-b = len(st2)
-c = len(st3)
+a = len(input())
+b = len(input())
+c = len(input())
 
 if a>b:
     if b>c:
@@ -26,6 +22,4 @@ elif a<b:
 
         else:
             result = c-a
-
-
 print(result)
