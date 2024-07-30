@@ -15,4 +15,4 @@ for i in range(4):
 print("")
 
 avg = (sum(row1)+sum(row2)) / 8
-print(avg)
+print(f'{avg:.1f}')
