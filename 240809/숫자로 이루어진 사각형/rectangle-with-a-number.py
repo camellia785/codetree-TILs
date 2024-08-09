@@ -1,16 +1,15 @@
-def print_square(N):
-    current_number = 1
-    for i in range(N):
-        row = []
-        for j in range(N):
-            row.append(current_number)
-            current_number += 1
-            if current_number > 9:
-                current_number = 1
-        print(' '.join(map(str, row)))
+# 변수 선언 및 입력:
+row_num = int(input())
 
-# 예제 입력
-N = int(input())
+# n개의 줄에 걸쳐 특정 문자열을 출력하는 함수
+def print_num(n):
+    cnt = 1
+    for _ in range(n):
+        for _ in range(n):
+            print(cnt, end=" ")
+            cnt += 1
+            if cnt == 10:
+                cnt = 1
+        print()
 
-# 함수 호출 및 출력
-print_square(N)
+print_num(row_num)
