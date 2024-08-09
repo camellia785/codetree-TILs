@@ -14,7 +14,7 @@ n, m = map(int, input().split())
 # 최소공배수 계산 및 출력
 print(lcm(n, m))
 
-
+'''
 ## (2) 최소공배수를 구하는 과정 그자체로 하기
 # 변수 선언 및 입력:
 n, m = tuple(map(int, input().split()))
@@ -32,3 +32,4 @@ def find_lcm(n, m):
    
 
 find_lcm(n, m)
+'''
