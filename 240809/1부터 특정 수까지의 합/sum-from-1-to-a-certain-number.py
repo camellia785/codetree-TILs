@@ -5,7 +5,7 @@ def calculate(N):
         cnt += i
         i = i+1
 
-    return int(cnt/10)
+    return cnt//10
 
 N = int(input())
 print(calculate(N))
