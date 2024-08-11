@@ -10,3 +10,8 @@ A = input()
 
 # palindrome 여부 확인 및 출력
 print(is_palindrome(A))
+
+'''
+A[::-1]은 문자열 A를 뒤집는 방법!!!1
+
+'''
