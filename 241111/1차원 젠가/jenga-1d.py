@@ -11,9 +11,10 @@ def f(arr, s, e) -> list[int]:
         temp.append[arr[i]]
     return temp
 
-Q = int(input())
-for _ in range(Q):
+for _ in range(2):
     s, e = map(int, input().split()) # 1
     A = f(A, s-1, e-1)
 
-print(A)
+print(len(A))
+for a in A:
+    print(a)
